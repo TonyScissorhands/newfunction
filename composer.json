@@ -1,0 +1,20 @@
+{
+    "name": "scissorhands/newfunction",
+    "description": "this is test",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "authors": [
+        {
+            "name": "lichen",
+            "email": "lc460620829@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "scissorhands\\": "src/"
+        }
+    }
+}
